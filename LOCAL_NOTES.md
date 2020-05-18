@@ -72,11 +72,17 @@ ng add @angular/fire
 ng deploy
 ```
 
+# Adding Multiple projects
+```
+ng generate application backend
+ng serve --project=backend
+```
 
-
-
-
-
+# Creating clean sample multi-project
+```
+ng new angular-shop --create-application=false
+ng generate application backend
+```
 
 # Git
 ```
