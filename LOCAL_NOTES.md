@@ -44,6 +44,13 @@ https://material.angular.io/
 ng add @angular/material
 ```
 
+# Using Custom Schematics with ng generate
+Example using @angular/material:
+```
+ng generate @angular/material:nav main-nav
+```
+
+
 # Git
 ```
 git remote add origin https://github.com/johnwr-response/atcg-angular-config.git
