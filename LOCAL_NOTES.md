@@ -56,6 +56,28 @@ Analyzes the project and finds packages needed to be updated. Then it prints a t
 ng update
 ```
 
+# Builders
+```
+ng build
+ng test
+ng lint
+ng deploy
+```
+#### ng deploy
+###### example useing firebase:
+```
+ng add @angular/fire
+# npm install -g firebase-tools # (If needed)
+# firebase login # (If needed)
+ng deploy
+```
+
+
+
+
+
+
+
 # Git
 ```
 git remote add origin https://github.com/johnwr-response/atcg-angular-config.git
