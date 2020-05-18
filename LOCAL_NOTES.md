@@ -8,6 +8,34 @@ ng new angular-config
 npm install -g @angular/cli@latest
 ```
 
+# Config files
+
+###### .editorconfig
+Sets up defauls for those editors supporting this. Visual Studio Code, IntelliJ etc.
+
+###### browserslist
+Angular uses this file to define which browsers to compile code for. Less supported browsers equals smaller files (I.e.: IE9-11).
+
+###### angular.json
+
+###### package.json
+npm install uses this file to when installing dependencies and versions of them. It contains the minimal compatible versions.
+
+###### package.lock.json
+npm install creates this when run. It contains the EXCACT VERSIONS of the dependencies when executed.
+
+###### tsconfig.json
+Configures the Typescript compiler
+
+###### tsconfig.app.json
+Extends the main tsconfig options for specific runtime compilation
+
+###### tsconfig.spec.json
+Extends the main tsconfig options for specific testing compilation
+
+###### tslint.json
+Define config for lint
+
 # Git
 ```
 git remote add origin https://github.com/johnwr-response/atcg-angular-config.git
