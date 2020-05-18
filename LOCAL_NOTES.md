@@ -50,6 +50,11 @@ Example using @angular/material:
 ng generate @angular/material:nav main-nav
 ```
 
+# ng update
+Analyzes the project and finds packages needed to be updated. Then it prints a table of commands to be run to actually update
+```
+ng update
+```
 
 # Git
 ```
