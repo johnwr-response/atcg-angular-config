@@ -82,6 +82,7 @@ ng serve --project=backend
 ```
 ng new angular-shop --create-application=false
 ng generate application backend
+ng generate library my-button
 ```
 
 # Git
