@@ -37,6 +37,13 @@ Extends the main tsconfig options for specific testing compilation
 ###### tslint.json
 Define config for lint
 
+# Example using ng add
+#### Installing Angular Material
+https://material.angular.io/
+```
+ng add @angular/material
+```
+
 # Git
 ```
 git remote add origin https://github.com/johnwr-response/atcg-angular-config.git
