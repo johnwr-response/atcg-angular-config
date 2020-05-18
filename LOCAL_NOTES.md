@@ -17,6 +17,7 @@ Sets up defauls for those editors supporting this. Visual Studio Code, IntelliJ 
 Angular uses this file to define which browsers to compile code for. Less supported browsers equals smaller files (I.e.: IE9-11).
 
 ###### angular.json
+Application and environment configurations
 
 ###### package.json
 npm install uses this file to when installing dependencies and versions of them. It contains the minimal compatible versions.
